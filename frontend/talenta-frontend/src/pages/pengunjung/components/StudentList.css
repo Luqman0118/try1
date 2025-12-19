@@ -1,0 +1,38 @@
+.student-list {
+    margin-top: 24px;
+    padding: 16px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.student-list h2 {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    color: #4f46e5;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+    padding: 8px 12px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.student-table th {
+    background: #f4f6fb;
+    font-weight: 600;
+}
+
+.student-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.student-table tr:hover {
+    background: #f0f4ff;
+}
