@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/frontend/talenta-frontend/dist/index.html" }
+  ],
+  "buildCommand": "cd frontend/talenta-frontend && npm run build",
+  "outputDirectory": "frontend/talenta-frontend/dist"
+}
